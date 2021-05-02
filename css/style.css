@@ -1,3 +1,7 @@
+.background-img {
+    height: 896px
+}
+
 .nav-item {
     list-style-type: none;
     display: inline-block;
@@ -40,7 +44,6 @@
 
 .main-heading-wrapper {
     margin-top: 0px;
-    /* margin-top: 210px; */
     width: 100%;
 }
 
@@ -51,7 +54,6 @@
 #main-title {
     float: right;
     padding-top: 20px;
-    /* text-align: right; */
 }
 
 #title {
@@ -113,7 +115,6 @@
 #graph-section {
     width: 100%;
     background-color: #f4f4f4;
-    /* height: 686px; */
 }
 
 #graph-description {
@@ -237,7 +238,6 @@
 
 .quote-wrapper {
     font-family: 'Segoe UI Emoji', sans-serif;
-    /* height: 500px; */
     background-color: #002e5b;
     text-align: center;
     color: white;
@@ -320,4 +320,8 @@ header {
     width: 60%;
     margin: 0 auto;
     line-height: 40px;
+}
+
+#social-media {
+    float: right;
 }
