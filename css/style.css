@@ -118,24 +118,11 @@
 
 #graph-description {
     background-color: #f4f4f4;
-    height: 686px;
 }
 
-
-/* #graph {
-    height: 225px;
-    width: 330px;
-    background-color: #a1a1a1;
-    float: left;
-    margin-right: 69px;
-} */
-
 #graph-img {
-    height: 225px;
-    width: 330px;
-    background-color: #a1a1a1;
-    float: left;
-    /* margin-right: 69px; */
+    width: 100%;
+    height: auto;
 }
 
 #contact-now-wrapper {

@@ -49,6 +49,10 @@ nav {
     width: 100%;
 }
 
+#graph-description {
+    padding: 100px 0;
+}
+
 .yellow-rectangle {
     position: relative;
     left: 49%;
@@ -218,6 +222,15 @@ footer {
         float: left;
         width: 45%;
     }
+    #graph {
+        width: 45%;
+        background-color: #a1a1a1;
+        float: left;
+    }
+    .graph-description-wrapper {
+        float: right;
+        width: 45%;
+    }
     #description1 {
         height: 414px;
     }
@@ -287,9 +300,6 @@ footer {
         float: left;
         /* margin-right: 134px; */
     }
-    .quote-wrapper {
-        /* height: 300px; */
-    }
     .navigation {
         display: inline;
     }
@@ -310,6 +320,10 @@ footer {
         float: left;
         width: 536px;
         margin-right: 134px;
+    }
+    .graph-description-wrapper {
+        float: right;
+        width: 45%;
     }
     .description-image {
         height: 325px;
@@ -333,10 +347,13 @@ footer {
         /* width: 50%; */
     }
     #graph {
-        height: 325px;
-        width: 530px;
+        width: 45%;
         background-color: #a1a1a1;
         float: left;
+    }
+    #graph-img {
+        width: 100%;
+        height: 455px;
     }
     .card {
         /* height: 200px; */
@@ -352,7 +369,7 @@ footer {
     }
     .stats {
         float: left;
-        width: 20%;
+        width: 25%;
         /* width: 100%; */
         color: white;
         margin-top: 140px;
@@ -363,6 +380,12 @@ footer {
         height: 360px;
         background-color: #011c37;
         position: relative;
+    }
+    #stat {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     #video-frame {
         height: 325px;
