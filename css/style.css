@@ -1,0 +1,336 @@
+.nav-item {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.nav-item:last-child {
+    padding-left: 0;
+}
+
+.nav-item a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+#logo-title {
+    color: #fde428;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 31px;
+}
+
+#sub-title {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+#language-selector {
+    height: 32px;
+    width: 32px;
+}
+
+#next-previous {
+    font-family: 'Montserrat', sans-serif;
+    color: #fde428;
+    padding-top: 145px;
+}
+
+.main-heading-wrapper {
+    margin-top: 0px;
+    /* margin-top: 210px; */
+    width: 100%;
+}
+
+#next-previous {
+    float: left;
+}
+
+#main-title {
+    float: right;
+    padding-top: 20px;
+    /* text-align: right; */
+}
+
+#title {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 43px;
+    width: 350px;
+    line-height: 45px;
+}
+
+#main-title a {
+    color: #fde428;
+}
+
+#main-link {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 20px;
+    padding-right: 13px;
+}
+
+.hamburger-menu div {
+    width: 30px;
+    height: 3px;
+    background-color: #f7f476;
+    margin: 5px 0;
+}
+
+.link a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom: 2px solid;
+    color: #002e5b;
+}
+
+.description-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #002e5b;
+    font-size: 31px;
+}
+
+.description-subtext {
+    font-family: 'Segoe UI Emoji', sans-serif;
+    margin-top: 28px;
+    font-size: 21px;
+    color: #666666;
+}
+
+.description {
+    font-family: 'Segoe UI Emoji', sans-serif;
+    margin-top: 24px;
+    font-size: 16px;
+    color: #333333;
+    display: none;
+}
+
+#graph-section {
+    width: 100%;
+    background-color: #f4f4f4;
+    /* height: 686px; */
+}
+
+#graph-description {
+    background-color: #f4f4f4;
+    height: 686px;
+}
+
+
+/* #graph {
+    height: 225px;
+    width: 330px;
+    background-color: #a1a1a1;
+    float: left;
+    margin-right: 69px;
+} */
+
+#graph-img {
+    height: 225px;
+    width: 330px;
+    background-color: #a1a1a1;
+    float: left;
+    /* margin-right: 69px; */
+}
+
+#contact-now-wrapper {
+    background-color: #002e5b;
+}
+
+#contact-now-text {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#contact-now-button {
+    background-color: #fde428;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    padding: 16px 14px 16px 18px;
+}
+
+#contact-now-button a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #002e5b;
+    font-size: 16px;
+}
+
+#contact-now {
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 95%;
+    height: 91px;
+    padding: 23px 0;
+}
+
+
+/* popular-service */
+
+#popular-service-wrapper {
+    background-color: white;
+}
+
+#popular-service-header {
+    text-align: center;
+}
+
+.popular-heading {
+    font-family: 'Montserrat', sans-serif;
+    color: #002e5b;
+    font-size: 21px;
+}
+
+#card1 {
+    background-color: #69d2e7;
+}
+
+#card2 {
+    background-color: #add478;
+    ;
+}
+
+#card3 {
+    background-color: #f49f77;
+}
+
+.card-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 37px;
+    text-align: left;
+    color: #002e5b;
+}
+
+.card-description {
+    font-family: 'Segoe UI Emoji', sans-serif;
+    margin-top: 29px;
+    text-align: left;
+    font-size: 16px;
+    color: #333333;
+    height: 200px;
+}
+
+.card-description li {
+    list-style-type: none;
+}
+
+
+/* stat */
+
+#stat-wrapper {
+    background-color: #011c37;
+}
+
+.stat-number {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+.stat-text {
+    font-family: 'Segoe UI Emoji', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* video-description */
+
+#video-frame {
+    background-color: #002e5b;
+}
+
+.quote-wrapper {
+    font-family: 'Segoe UI Emoji', sans-serif;
+    /* height: 500px; */
+    background-color: #002e5b;
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+    margin-top: 50px;
+}
+
+#big-quote {
+    font-size: 42px;
+}
+
+footer {
+    background-color: #002e5b;
+}
+
+.social-media-icon {
+    list-style-type: none;
+}
+
+.social-media-icon a {
+    text-decoration: none;
+    color: white;
+}
+
+.map-card {
+    box-shadow: 5px 5px 5px 1px #888888;
+}
+
+header {
+    background: url(../images/background-layer.png);
+    background-color: #011c37;
+}
+
+#copyright-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.footer-link {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: #fde428;
+}
+
+.footer-container {
+    padding: 20px;
+    width: 100%;
+}
+
+.map-ico {
+    padding-left: 39px;
+    color: #002e5b;
+    padding-top: 33px;
+}
+
+.map-add {
+    padding-left: 22px;
+    color: #002e5b;
+}
+
+.card-heading h3 {
+    padding-left: 39px;
+}
+
+#selector-dropdown {
+    color: white;
+}
+
+.testimony-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.testimony {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 40px;
+}
