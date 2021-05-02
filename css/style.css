@@ -8,10 +8,6 @@
     padding-left: 40px;
 }
 
-.nav-item:last-child {
-    padding-left: 0;
-}
-
 .nav-item a {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
@@ -34,6 +30,8 @@
 #language-selector {
     height: 32px;
     width: 32px;
+    position: relative;
+    top: 9px;
 }
 
 #next-previous {
