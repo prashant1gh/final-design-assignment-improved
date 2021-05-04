@@ -180,7 +180,6 @@
 
 #card2 {
     background-color: #add478;
-    ;
 }
 
 #card3 {
@@ -204,8 +203,11 @@
     height: 200px;
 }
 
-.card-description li {
+.map-card-description li {
     list-style-type: none;
+    position: relative;
+    padding-left: 40px;
+    padding-top: 20px;
 }
 
 
@@ -260,8 +262,25 @@ footer {
     color: white;
 }
 
+#contact-us-header {
+    text-align: center;
+}
+
 .map-card {
-    box-shadow: 5px 5px 5px 1px #888888;
+    box-shadow: 1px 1px 9px -3px #888;
+}
+
+.map {
+    position: relative;
+}
+
+.map-card-heading h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 37px;
+    text-align: left;
+    color: #002e5b;
+    padding-left: 39px;
 }
 
 header {
@@ -289,18 +308,26 @@ header {
 }
 
 .map-ico {
-    padding-left: 39px;
+    /* padding-left: 39px; */
     color: #002e5b;
-    padding-top: 33px;
+    /* padding-top: 33px; */
+    position: absolute;
+    top: 24px;
 }
 
 .map-add {
-    padding-left: 22px;
+    padding-left: 30px;
+    display: inline-block;
+    width: 63%;
     color: #002e5b;
 }
 
-.card-heading h3 {
-    padding-left: 39px;
+.map-card-description {
+    font-family: 'Segoe UI Emoji', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    color: #333333;
+    min-height: 200px;
 }
 
 #selector-dropdown {

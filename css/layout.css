@@ -179,8 +179,11 @@ nav {
 }
 
 .map-image {
-    height: 190.37px;
     width: 100%
+}
+
+#contact-us {
+    padding: 20px 0;
 }
 
 footer {
@@ -247,8 +250,10 @@ footer {
         width: 45%;
     }
     .map-image {
-        height: 190.37px;
         width: 100%
+    }
+    #contact-us {
+        padding: 50px 0;
     }
 }
 
@@ -280,6 +285,9 @@ footer {
         width: 45%;
         background-color: #002e5b;
         float: left;
+    }
+    #contact-us {
+        padding: 100px 0;
     }
     .navigation {
         display: inline;
