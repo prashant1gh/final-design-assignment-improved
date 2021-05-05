@@ -89,7 +89,6 @@ nav {
 
 #contact-now-button {
     float: right;
-    height: 44px;
 }
 
 .vertical-center {
@@ -107,8 +106,8 @@ nav {
     position: relative;
 }
 
-#popular-service-header {
-    margin-top: 98px;
+#popular-service {
+    padding: 98px 0;
 }
 
 .sub-heading {
@@ -186,10 +185,6 @@ nav {
     padding: 20px 0;
 }
 
-footer {
-    height: 60px;
-}
-
 .social-media-icon {
     float: left;
     display: block;
@@ -216,6 +211,15 @@ footer {
         float: left;
         width: 45%;
     }
+    .description-title {
+        font-size: 24px;
+    }
+    .description-subtext {
+        font-size: 16px;
+    }
+    .popular-heading {
+        font-size: 16px;
+    }
     #graph {
         width: 45%;
         float: left;
@@ -225,7 +229,7 @@ footer {
         width: 45%;
     }
     #description1 {
-        height: 414px;
+        height: 55.49vh;
     }
     .card {
         height: 100%;
@@ -258,11 +262,32 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+    #main-title {
+        float: right;
+        text-align: right;
+        padding-top: 20px;
+        padding-right: 215px;
+    }
+    #ring-copy {
+        position: relative;
+        left: 61%;
+        top: -293px;
+        z-index: 1;
+    }
     .description-image {
         max-width: 500px;
         height: 220px;
         width: 45%;
         float: right;
+    }
+    .description-title {
+        font-size: 26px;
+    }
+    .description-subtext {
+        font-size: 18px;
+    }
+    .popular-heading {
+        font-size: 18px;
     }
     .main-heading-wrapper {
         margin-top: 210px;
@@ -310,6 +335,12 @@ footer {
         width: 536px;
         margin-right: 130px;
     }
+    .description-title {
+        font-size: 31px;
+    }
+    .description-subtext {
+        font-size: 21px;
+    }
     .graph-description-wrapper {
         float: right;
         width: 45%;
@@ -328,6 +359,9 @@ footer {
         color: #333333;
         display: inline-block;
     }
+    .popular-heading {
+        font-size: 21px;
+    }
     .yellow-rectangle {
         position: relative;
         left: 27%;
@@ -340,7 +374,7 @@ footer {
     }
     #graph-img {
         width: 100%;
-        height: 455px;
+        height: auto
     }
     .card {
         width: 370px;
@@ -350,7 +384,6 @@ footer {
     }
     #popular-service-wrapper {
         position: relative;
-        height: 670px;
         background-color: white;
     }
     .stats {
@@ -362,7 +395,8 @@ footer {
         padding: 30px;
     }
     #stat-wrapper {
-        height: 360px;
+        /* height: 360px; */
+        height: 48.25vh;
         background-color: #011c37;
         position: relative;
     }
@@ -373,15 +407,16 @@ footer {
         transform: translate(-50%, -50%);
     }
     #video-frame {
-        height: 325px;
-        width: 500px;
+        /* height: 325px; */
+        width: 43%;
         background-color: #002e5b;
         float: left;
         margin-right: 134px;
     }
     #video-yellow-frame {
         display: inline;
-        height: 539px;
+        /* height: 539px; */
+        height: 166%;
     }
     .nav-item {
         padding-left: 15px;

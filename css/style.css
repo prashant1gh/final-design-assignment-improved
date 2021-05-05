@@ -1,11 +1,18 @@
 .background-img {
-    height: 896px
+    /* height: 896px */
+    /* height: 120vh; */
+    height: 80%;
 }
 
 .nav-item {
     list-style-type: none;
     display: inline-block;
     padding-left: 40px;
+}
+
+.nav-item a:hover {
+    color: #f7f476;
+    border-bottom: 2px solid #f7f476;
 }
 
 .nav-item a {
@@ -89,16 +96,20 @@
     color: #002e5b;
 }
 
+.link a:hover {
+    border: none;
+}
+
 .description-title {
     font-family: 'Montserrat', sans-serif;
     color: #002e5b;
-    font-size: 31px;
+    font-size: 21px;
 }
 
 .description-subtext {
     font-family: 'Segoe UI Emoji', sans-serif;
     margin-top: 28px;
-    font-size: 21px;
+    font-size: 16px;
     color: #666666;
 }
 
@@ -149,11 +160,15 @@
     font-size: 16px;
 }
 
+#contact-now-button:hover {
+    /* background-color: #ffe100; */
+    box-shadow: 1px 1px 7px #f7f476;
+}
+
 #contact-now {
     margin: 0 auto;
     max-width: 1170px;
     width: 95%;
-    height: 91px;
     padding: 23px 0;
 }
 
@@ -171,7 +186,7 @@
 .popular-heading {
     font-family: 'Montserrat', sans-serif;
     color: #002e5b;
-    font-size: 21px;
+    font-size: 16px;
 }
 
 #card1 {
@@ -200,7 +215,6 @@
     text-align: left;
     font-size: 16px;
     color: #333333;
-    height: 200px;
 }
 
 .map-card-description li {
@@ -208,6 +222,11 @@
     position: relative;
     padding-left: 40px;
     padding-top: 20px;
+}
+
+.map-card:hover {
+    box-shadow: 2px 2px 9px 3px #888;
+    z-index: 5;
 }
 
 
@@ -260,6 +279,10 @@ footer {
 .social-media-icon a {
     text-decoration: none;
     color: white;
+}
+
+.social-media-icon a:hover {
+    color: #fde428;
 }
 
 #contact-us-header {
